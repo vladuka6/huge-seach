@@ -95,9 +95,16 @@ h3:hover{
                 transform: scale(1.2);}
                 body{
                     margin-bottom: 200px;
+                    width: 1300px;
+                    margin:0 auto;
+                    padding-bottom: 200px;
                 }
                 input[type="search"]::placeholder 
                 { color:#c2c2c2; }  /* Цвет подсказывающего текста */
+                header{
+                    width: 1300px;
+                    margin: 0 auto;
+                }
                             
          
         
