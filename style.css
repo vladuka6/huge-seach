@@ -1,0 +1,108 @@
+ul{
+   width: auto;
+   height: auto;
+   margin: 0 0 0 0;
+   padding-left: 130px;
+}
+    li a{
+        padding:10px 20px 15px;
+        display: block;
+        margin:0 auto;
+    }
+        li img{
+            display: inline-block;
+            width: 50px;
+            margin: 0 10px 0 0;
+            vertical-align: middle;
+            border-radius: 50%;
+        } 
+    h3{
+    vertical-align: middle;
+    font-size: 0.85em;
+    display: inline-block;
+    font-weight: 700;
+    margin: 0 0 0 0;
+    width: auto;
+    color: #c2c2c2;
+    font-family: Arial, sans-serif;
+        }          
+        
+        li{
+        display: inline-block;
+        width: 320px;  
+        height: 70px;
+        border-radius: 5px; 
+        box-sizing: border-box;
+        margin-bottom: 5px;
+        background-color:rgba(118,117,128,0.05);
+        
+    }
+     
+        li:nth-child(3n+2)
+        {
+            margin:0 56px;
+        }
+        body{
+            background-color:#F1F1F1;
+           
+        }
+li:hover
+{
+    background-color:#E4E4E6;}
+    
+
+h3:hover{
+    color:#ec5a62;}
+
+    li.type{
+     background-color:#F1F1F1;
+     padding-top: 30px;
+     font-family: Arial, sans-serif;
+     }
+     p{
+        text-transform:uppercase;
+        font-size: 14px;
+        font-weight: 900;
+        color:#c2c2c2;
+       }
+       .ba-hugesearch-input {
+        width: 100%;
+        padding: 0 80px 0 10px;
+        font-weight: 700;
+        border: none;
+        background: transparent;
+        font-size: 7em;
+        color: #ec5a62;}
+        .ba-hugesearch-submit {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            text-indent: 100px;
+            overflow: hidden;
+            right: 0;
+            top: 50%;
+            background: transparent url(favicon.png) no-repeat center center;
+            background-size: 100%;
+            border: none;
+            transform-origin: 100% 50%;}
+            .ba-hugesearch-form {
+                margin: 0 auto;
+                position: relative;
+                width: 80%;
+                border-color: 1px solid green;}
+                .ba-hugesearch-submit:hover
+                {
+                transform: scale(1.2);}
+                body{
+                    margin-bottom: 200px;
+                }
+                input[type="search"]::placeholder 
+                { color:#c2c2c2; }  /* Цвет подсказывающего текста */
+                            
+         
+        
+    
+                
+               
+       
+    
